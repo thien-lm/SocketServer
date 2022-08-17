@@ -28,6 +28,12 @@ public class ServerWorkerThread extends Thread{
 			
 		 inputStream = socket.getInputStream();
 		 outputStream = socket.getOutputStream();
+//		 
+//		 int _byte;
+//		 while((_byte = inputStream.read()) >=0)
+//		 {
+//			 System.out.print((char)_byte);
+//		 }
 		
 		String html = "<html><head><title>ditmemay</title></head><body><h1>xnxx</h1></body></html>";
 		final String CRLF = "\r\n";
